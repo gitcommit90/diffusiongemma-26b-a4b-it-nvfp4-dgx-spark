@@ -4,6 +4,13 @@ Ready-to-run **vLLM deployment package** for [`nvidia/diffusiongemma-26B-A4B-it-
 
 This is a **deployment package**, not new weights. Upstream checkpoint: NVIDIA ModelOpt NVFP4 of Google DeepMind DiffusionGemma 26B A4B IT (MoE, 25.2B total / ~3.8B active). Runtime image: `vllm/vllm-openai:gemma-aarch64-cu130`.
 
+## Benchmark visualization
+
+[![Publication-style benchmark summary](figures/benchmark-summary.png)](figures/benchmark-summary.pdf)
+
+The figure is generated from this repository's measured results with [`figures/plot_benchmarks.py`](figures/plot_benchmarks.py), following the publication-figure conventions from [figures4papers](https://github.com/ChenLiu-1996/figures4papers). The PNG is optimized for GitHub; click it for the vector PDF.
+
+
 ## Hardware measured on
 
 | Item | Value |
